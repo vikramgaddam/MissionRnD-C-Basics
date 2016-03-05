@@ -28,16 +28,15 @@ int main(){
 	
 	//Test Count file
 	
-	//int countTemp = count(5, 20);
-	//printf("%d\n", countTemp);
+	int countTemp = count(5, 20);
+	printf("%d\n", countTemp);
 
 
 	//Test Swap
-	int a = 5, b = 7;
-	swap(&a, &b);
-	printf("%d %d\n", a, b);
-	getchar();
-
+	//int a = 5, b = 7;
+	//swap(&a, &b);
+	//printf("%d %d\n", a, b);
+	
 	//Is Older 
 	//char date1[20] = "29-02-2004";
 	//char date2[20] = "29-02-2000";
@@ -53,6 +52,7 @@ int main(){
 	//int total = variableArguments(3, 20, 90, 98);
 	//printf("There are %d students greater than 90\n", total);
 	
-	
+
+	getchar();
 	return 0;
 }
