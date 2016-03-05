@@ -28,8 +28,8 @@ int main(){
 	
 	//Test Count file
 	
-	int countTemp = count(5, 20);
-	printf("%d\n", countTemp);
+	//int countTemp = count(5, 20);
+	//printf("%d\n", countTemp);
 
 
 	//Test Swap
@@ -38,15 +38,15 @@ int main(){
 	//printf("%d %d\n", a, b);
 	
 	//Is Older 
-	//char date1[20] = "29-02-2004";
-	//char date2[20] = "29-02-2000";
-	//int check=isOlder(date1, date2);
-	//if (check == 0){
-		//printf("Both are of same age \n");
-	//}
-	//else{
-		//printf("%d person is Older \n", check);
-	//}
+	char date1[20] = "29-02-2004";
+	char date2[20] = "29-02-2000";
+	int check=isOlder(date1, date2);
+	if (check == 0){
+		printf("Both are of same age \n");
+	}
+	else{
+		printf("%d person is Older \n", check);
+	}
 
 	//Variable Arguments
 	//int total = variableArguments(3, 20, 90, 98);
